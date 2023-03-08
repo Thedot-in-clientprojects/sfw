@@ -287,8 +287,17 @@ function Projects() {
     <MenuItem value={'Maternity Photography'}>Maternity Photography</MenuItem>
     <MenuItem value={'Baby Photography'}>Baby Photography</MenuItem>
     <MenuItem value={'Newborn Photography'}>Newborn Photography</MenuItem>
-    <MenuItem value={'Rental'}>Rental</MenuItem>
+    <MenuItem value={'Posed newborn photography'}>Posed newborn photography</MenuItem>
+    <MenuItem value={'Birth Story'}>Birth Story</MenuItem>
+
     <MenuItem value={'Photo & Video Editing'}>Photo & Video Editing</MenuItem>
+    <MenuItem value={'Color grading'}>Color Grading</MenuItem>
+    <MenuItem value={'Video Editing'}>Video Editing</MenuItem>
+    <MenuItem value={'Video Editing'}>Photo Editing</MenuItem>
+
+
+    <MenuItem value={'Rental'}>Rental</MenuItem>
+    <MenuItem value={'Animation'}>Animation</MenuItem>
   </Select>
 </FormControl>
 <Button

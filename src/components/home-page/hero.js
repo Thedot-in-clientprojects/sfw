@@ -43,41 +43,7 @@ function Hero({ heroItems }) {
                             <div className={heroContent}>
                                 <div className="hero-inner grid grid-cols-12">
                                     <div className="hero-year col-span-2 text-white md:block hidden">
-                                        {/* <div className="social-holder flex flex-col justify-between h-full">
-                                            <span>{heroItem?.heroYear}</span>
-                                            <ul className="social-box mb-[-140px]">
-                                                <li className="mb-[25px]">
-                                                    <Link href="https://example.com/">
-                                                        <a
-                                                            target="_blank"
-                                                            aria-label="Twitter"
-                                                        >
-                                                            <TwitterIcon />
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li className="mb-[25px]">
-                                                    <Link href="https://example.com/">
-                                                        <a
-                                                            target="_blank"
-                                                            aria-label="Facebook"
-                                                        >
-                                                            <FacebookIcon />
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="https://example.com/">
-                                                        <a
-                                                            target="_blank"
-                                                            aria-label="Google"
-                                                        >
-                                                            <GoogleIcon />
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div> */}
+                                   
                                     </div>
                                     <div className="md:col-span-10 col-span-12">
                                         <div

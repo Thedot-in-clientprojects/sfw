@@ -68,9 +68,7 @@ function CompanyScreen() {
                 <AllProjects projectName={Cid} projectsFromCompany={projectsFromCompany}/>
             ) : (
                 null
-            )
-
-            }
+            )}
             </div>
             
 

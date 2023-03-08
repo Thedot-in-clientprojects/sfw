@@ -167,6 +167,66 @@ function AllProjects({
                             </div>
                 ) : (null)
                 }
+                {projectName === 'coimbatore-editing-house' ? (
+                            <div className="filter-tab flex xl:justify-end flex-wrap text-[#30373E] uppercase md:pb-155 pb-[55px] max-lg:pt-[55px]">
+                            <button
+                                className={`${
+                                    currentFilter === 'all' ? 'active' : ''
+                                } ml-10`}
+                                type="button"
+                                // onClick={onFilterHandler}
+                                onClick={(e) => setprojectCategory("all")}
+                                data-filter="all"
+                            >
+                                All
+                            </button>
+                            <button
+                                className={`${
+                                    currentFilter === 'Photo & Video Editing' ? 'active' : ''
+                                } ml-10`}
+                                type="button"
+                                // onClick={onFilterHandler}
+                                onClick={(e) => setprojectCategory("Photo & Video Editing")}
+                                data-filter="Photo & Video Editing"
+                            >
+                                Photo & Video Editing
+                            </button>
+                            <button
+                                className={`${
+                                    currentFilter === 'Color grading' ? 'active' : ''
+                                } ml-10`}
+                                type="button"
+                                // onClick={onFilterHandler}
+                                onClick={(e) => setprojectCategory("Color grading")}
+                                data-filter="Color grading"
+                            >
+                               Color grading
+                            </button>
+                            <button
+                                className={`${
+                                    currentFilter === 'Video Editing' ? 'active' : ''
+                                } ml-10`}
+                                type="button"
+                                // onClick={onFilterHandler}
+                                onClick={(e) => setprojectCategory("Video Editing")}
+                                data-filter="Video Editing"
+                            >
+                          Video Editing
+                            </button>
+                            <button
+                                className={`${
+                                    currentFilter === 'Photo Editing' ? 'active' : ''
+                                } ml-10`}
+                                type="button"
+                                // onClick={onFilterHandler}
+                                onClick={(e) => setprojectCategory("Photo Editing")}
+                                data-filter="Photo Editing"
+                            >
+                      Photo Editing
+                            </button>
+                            </div>
+                ) : (null)
+                }
              
             </div>
             <div className="grid xl:grid-cols-4 fixed-lg:grid-cols-3 fixed-md:grid-cols-2 gap-[5px]">
