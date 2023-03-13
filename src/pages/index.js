@@ -27,20 +27,16 @@ function HomePage({
                 <title>SFW</title>
                 <meta
                     name="description"
-                    content="SFW - Sree Film World"
-                />
+                    content="SFW - Sree Film World"/>
             </Head>
             <HeaderOne />
             <Hero heroItems={heroItems} />
-            {/* <Services services={services} /> */}
             <LatestProject projects={projects} />
             <About />
 
              
              <ImageGrid/>
-            {/* <PricingTab pricingItems={pricingItems} /> */}
-            {/* <Testimonial testimonialItems={testimonialItems} /> */}
-            {/* <Brand brandItems={brandItems} /> */}
+         
             <FeaturedPost posts={posts} />
         </>
     );

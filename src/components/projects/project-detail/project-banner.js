@@ -4,7 +4,7 @@ import Image from 'next/image';
 function ProjectBanner({ title, excerpt, image }) {
     return (
         <div className="project-banner relative">
-            <div className="image relative w-full lg:h-[980px] h-[550px] before:absolute before:bg-black before:opacity-40 before:w-full before:h-full before:z-[1]">
+            <div className="image relative w-full lg:h-[980px] h-[550px] before:absolute before:bg-black before:opacity-0 before:w-full before:h-full before:z-[1]">
                 <img
                     src={image}
                     alt={title}

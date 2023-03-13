@@ -39,13 +39,7 @@ function ProjectContent({ project }) {
                             </span>
                             {project.location}
                         </li>
-                        <li>
-                            <span className="text-[#4D5660] mr-[5px]">
-                                Client:
-                            </span>
-                            {project.location}
-                        </li>
-
+                     
                         <li>
                             <span className="text-[#4D5660] mr-[5px]">
                                 Architect:

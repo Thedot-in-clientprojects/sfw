@@ -15,9 +15,12 @@ function FeaturedPost({ posts }) {
                             All articles
                         </a>
                     </Link>
+
                 </div>
                 <PostSlider posts={posts} />
+
             </div>
+            
         </div>
     );
 }

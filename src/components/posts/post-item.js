@@ -36,7 +36,7 @@ function PostItem({ posts }) {
                             priority
                         />
                     </div>
-                    <div className="post-content">
+                    <div className="container post-content">
                         <h2 className="text-[24px] leading-[34px] mt-6 transition duration-300 hover:text-[#cbaf71] hover:underline">
                             {posts[1].heading}
                             

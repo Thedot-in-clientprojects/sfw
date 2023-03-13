@@ -17,7 +17,7 @@ function ProjectItem({ project }) {
             <Link href={`/projects/${project[0]}`}>
                 <a>
                     <div className="project-img relative before:absolute before:bg-black before:opacity-20 before:w-full before:h-full before:z-[1]">
-                        {project[1].mainImg ? (
+                        {project[1].mainImg ? (<>
                                                     <img
                                                     src={project[1].mainImg}
                                                     alt={project[1].heading}
@@ -27,7 +27,8 @@ function ProjectItem({ project }) {
                                                     objectFit="cover"
                                                     quality={60}
                                                     priority
-                                                /> 
+                                                />
+                                                </> 
                         ) : (
                                 <>
                                 </>
