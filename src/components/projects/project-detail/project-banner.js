@@ -5,13 +5,23 @@ function ProjectBanner({ title, excerpt, image }) {
     return (
         <div className="project-banner relative">
             <div className="image relative w-full lg:h-[980px] h-[550px] before:absolute before:bg-black before:opacity-0 before:w-full before:h-full before:z-[1]">
-                <img
-                    src={image}
-                    alt={title}
-                    layout="fill"
-                    objectFit="cover"
-                    quality={70}
-                />
+               {image ? (
+                <>
+                {
+                    console.log('image -> ', image)
+                }
+                <Image
+                src={image}
+                alt={title}
+                layout="fill"
+                unoptimized
+            />
+            </>
+               ) : (<p>
+                Noo
+               </p>)
+
+               } 
             </div>
             <div className="container">
                 <div className="content absolute top-1/2 transform -translate-y-1/2 z-[1]">
