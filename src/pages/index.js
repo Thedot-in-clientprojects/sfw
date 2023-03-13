@@ -35,15 +35,7 @@ function HomePage({
             {/* <Services services={services} /> */}
             <LatestProject projects={projects} />
             <About />
-            <div
-            style={{
-                marginLeft:15,
-                marginTop:25,
-                backgroundColor:'#EEEEEE'
-            }}
-            >
-                Instagram Collage Component - STATUS On-progress 🚧
-             </div>
+
              
              <ImageGrid/>
             {/* <PricingTab pricingItems={pricingItems} /> */}

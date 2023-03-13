@@ -109,7 +109,10 @@ function ImageGrid() {
 
 
   return (
-    <div>ImageGrid
+    <div style={{
+        marginTop:30,
+        marginBottom:30
+    }}>
 <Gallery images={images} />
 
 
