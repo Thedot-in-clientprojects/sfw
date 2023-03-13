@@ -10,6 +10,7 @@ import Testimonial from '../components/home-page/testimonial';
 import Brand from '../components/home-page/brand';
 import FeaturedPost from '../components/home-page/featured-post';
 import LatestProject from '../components/home-page/latest-project';
+import ImageGrid from '../components/images/image-grid';
 
 function HomePage({
     heroItems,
@@ -43,6 +44,8 @@ function HomePage({
             >
                 Instagram Collage Component - STATUS On-progress 🚧
              </div>
+             
+             <ImageGrid/>
             {/* <PricingTab pricingItems={pricingItems} /> */}
             {/* <Testimonial testimonialItems={testimonialItems} /> */}
             {/* <Brand brandItems={brandItems} /> */}
