@@ -43,11 +43,14 @@ function CompanyScreen() {
         });
     }
 
+    
     useEffect(() => {
       if(Cid){
             getAProjectFromCompanies(Cid);
       }
-    }, [])
+    }, []);
+
+
     
     return (
         <>
@@ -70,8 +73,6 @@ function CompanyScreen() {
                 null
             )}
             </div>
-            
-
         </>
     );
 }

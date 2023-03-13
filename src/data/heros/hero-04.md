@@ -1,7 +1,7 @@
 ---
 id: 'hero-04'
 title: Hero Title
-image: /images/hero/sf1.jpg
+image: /images/hero/sf3.webp
 heroYear: 2023
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'

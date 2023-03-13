@@ -53,7 +53,7 @@ function Hero({ heroItems }) {
                                             }}
                                         />
                                         <h2
-                                            className="md:text-[100px] md:leading-[100px] text-[50px] leading-[1.2] text-white mb-[90px] hero-slidedown delay-[600ms]"
+                                            className="md:text-[80px] md:leading-[100px] text-[50px] leading-[1.2] text-white mb-[90px] hero-slidedown delay-[600ms]"
                                             dangerouslySetInnerHTML={{
                                                 __html: heroItem?.heroTitle,
                                             }}

@@ -20,7 +20,7 @@ function ProjectContent({ project }) {
                 title={project.heading}
                 excerpt={project.company}
                 categoryName={project.category}
-                image={project.mainImg}
+                image={project.subImgOne}
             />
             <div className="project-upper-box md:pt-[150px] pt-[55px]">
                 <div className="container">
@@ -91,6 +91,16 @@ function ProjectContent({ project }) {
                             dangerouslySetInnerHTML={{
                                 __html: project.destwo,
                             }}
+                        />
+                    </div>
+                    <div className="image md:pt-[85px] pt-[50px]">
+                        <img
+                            src={project.subImgTwo
+                            }
+                            alt={project.heading}
+                            width={1170}
+                            height={610} 
+                            objectFit="cover"
                         />
                     </div>
                 </div>

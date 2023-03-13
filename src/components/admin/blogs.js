@@ -180,9 +180,11 @@ function Blogs() {
     label="Company Name"
     onChange={(e) => setblogCompanyName(e.target.value)}
   >
-    <MenuItem value={'Sree Film World'}>Sree Film World</MenuItem>
-    <MenuItem value={'Coimbatore Baby Props And Studio'}>Coimbatore Baby Props And Studio</MenuItem>
-    <MenuItem value={'Coimbatore Rental'}>Coimbatore Rental</MenuItem>
+    <MenuItem value={'sree-film-world'}>Sree Film World</MenuItem>
+    <MenuItem value={'coimbatore-baby-props-and-studio'}>Coimbatore Baby Props And Studio</MenuItem>
+    <MenuItem value={'coimbatore-editing-house'}>Coimbatore Editing House</MenuItem>
+    <MenuItem value={'coimbatore-rental'}>Coimbatore Rental</MenuItem>
+    <MenuItem value={'sm-drones'}>SM Drones</MenuItem>
   </Select>
 </FormControl>
     <FormControl fullWidth>
