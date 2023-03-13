@@ -7,7 +7,7 @@ function About() {
     const desc = `text-[14px] leading-[25px] text-secondary mb-[80px] lg:max-w-[490px]`;
     const aboutImage = `flex justify-end relative  sm:before:absolute sm:before:h-[336px] sm:before:w-[336px] sm:before:top-[75px] sm:before:left-[85px]`;
     return (
-        <div id="about" className="about-area md:pt-[150px] pt-[50px]">
+        <div id="about" className="about-area md:pt-[80px] pt-[40px]">
             <div className="container max-lg:max-w-full fixed-lg:pr-0">
                 <div className="lg:grid lg:grid-cols-2 max-md:flex max-md:flex-col-reverse">
                     <div className="about-content max-md:pt-10">
@@ -16,7 +16,7 @@ function About() {
                             Sree Film World Photography Started as a film making
                             team since Sep 2015
                         </h2>
-                        <h3 className="text-secondary text-2xl mb-12">
+                        <h3 className="text-secondary text-2xl mb-2">
                             We know that good photograpgy means <br /> good
                             business
                         </h3>
@@ -35,10 +35,10 @@ function About() {
                     </div>
                     <div className={aboutImage}>
                         <Image
-                            src="/images/about/1.jpg"
+                            src="/images/about/2.png"
                             alt="Service Image"
-                            width={390}
-                            height={760}
+                            width={490}
+                            height={660}
                             quality={70}
                             layout="fixed"
                             objectFit="cover"
