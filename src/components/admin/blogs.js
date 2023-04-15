@@ -81,7 +81,7 @@ function Blogs() {
             descOne: blogMainDescriptionOne,
             descTwo: blogMainDescriptionTwo,
             descThree: blogMainDescriptionThree,
-            descFour: blogMainImageFour,
+            descFour: blogMainDescriptionFour,
             keys: blogKeyworld
         }).then(res => {
             setblogCompanyName('')

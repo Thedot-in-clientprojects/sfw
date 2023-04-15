@@ -4,6 +4,34 @@ import Image from 'next/image';
 import { IoMdGrid } from 'react-icons/io';
 import ProjectBanner from './project-banner';
 import { useEffect } from 'react';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
+
+
+
+const ProjectBannerSection = (props) => {
+    const matches = useMediaQuery('(max-width:600px)');
+    if(matches)
+    return(
+        <ProjectBanner
+                title={props.project.heading}
+                excerpt={props.project.company}
+                categoryName={props.project.category}
+                image={props.project.mainImg}
+            />
+    )
+    else
+    return(
+        <ProjectBanner
+                title={props.project.heading}
+                excerpt={props.project.company}
+                categoryName={props.project.category}
+                image={props.project.mainImgFour}
+            />
+    )
+}
+
+
 
 function BlogContent({ project }) {
 
@@ -15,12 +43,7 @@ function BlogContent({ project }) {
     return (
         <article>
            
-            <ProjectBanner
-                title={project.heading}
-                excerpt={project.company}
-                categoryName={project.category}
-                image={project.mainImg}
-            />
+            <ProjectBannerSection project={project}/>
             <div className="project-upper-box md:pt-[150px] pt-[55px]">
                 <div className="container">
                     <div className="navigation pb-[50px]">
@@ -105,7 +128,7 @@ function BlogContent({ project }) {
                         <div
                             className="text-[18px] leading-8 text-secondary"
                             dangerouslySetInnerHTML={{
-                                __html: project.descThree,
+                                __html: project.descFour,
                             }}
                         />
                     </div>
